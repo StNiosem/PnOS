@@ -1,2 +1,1 @@
-from pnos import driverspec
-
+from pnos import module_detachable

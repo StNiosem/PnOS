@@ -11,7 +11,7 @@ def  CryptUserDir() :
     os.DirEntry(userDir)
     
     if userDir == "" :
-        print("UserDir is empty. Cannot Continue")
+        print("UserDir path is empty. Cannot Continue")
         exit()
 
     
