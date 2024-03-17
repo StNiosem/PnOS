@@ -1,1 +1,0 @@
-from pnos import module_detachable
