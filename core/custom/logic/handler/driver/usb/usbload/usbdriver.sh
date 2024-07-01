@@ -6,3 +6,5 @@ InitUSB(){
     /usr/bin/env pnshell register_driver usb.load
 
 }
+
+InitUSB()
