@@ -1,0 +1,3 @@
+[submodule "core/user/SuperShell"]
+	path = core/user/SuperShell
+	url = https://github.com/StNiosem/SuperShell
