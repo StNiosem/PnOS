@@ -2,7 +2,7 @@ from pnos import module_detachable
 from pnos import pnos
 from pnos import bootloader
 
-import usbload
+import load
 
 import os
 

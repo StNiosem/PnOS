@@ -1,6 +1,6 @@
 import pnos
 from pnos import bootloader
-import usbpower
+import power
 import os
 
 #USB LOAD
