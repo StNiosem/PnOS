@@ -8,3 +8,9 @@ register_driver($DRIVERNAME, $DRIVERTYPE, $DRIVERID){
     echo $DRIVERNAME,$DRIVERTYPE,$DRIVERID | tee "/sys/drivers/driversfile" 
     sysConfig reload
 }
+
+syscontrol($COMMAND){
+    if $COMMAND == reboot 
+        reboot
+    fi
+}

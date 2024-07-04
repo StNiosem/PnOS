@@ -1,4 +1,7 @@
+#NOT uploading my python packages lmao
 .venv
+
+#Exclude files with no extension
 *
 !*/
 !*.*
