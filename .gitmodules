@@ -1,3 +1,6 @@
 [submodule "core/user/SuperShell"]
 	path = core/user/SuperShell
 	url = https://github.com/StNiosem/SuperShell
+[submodule "core/interface/PnFloat"]
+	path = core/interface/PnFloat
+	url = https://github.com/StNiosem/PnFloat
