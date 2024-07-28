@@ -5,7 +5,7 @@ outputs($OUTPUTTYPE){
 }
 
 register_driver($DRIVERNAME, $DRIVERTYPE, $DRIVERID){
-    echo $DRIVERNAME,$DRIVERTYPE,$DRIVERID | tee "/sys/drivers/driversfile" 
+    echo "$DRIVERNAME,$DRIVERTYPE,$DRIVERID;" | tee "/sys/drivers/driversfile" 
     sysConfig reload
 }
 
