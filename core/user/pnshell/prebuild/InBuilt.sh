@@ -1,7 +1,7 @@
 #! /bin/env zsh
 
 outputs($OUTPUTTYPE){
-    lspci | grep -s "display"
+    lspci | grep -s "$OUTPUTTYPE"
 }
 
 register_driver($DRIVERNAME, $DRIVERTYPE, $DRIVERID){

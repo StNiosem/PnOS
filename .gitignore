@@ -1,2 +1,4 @@
 #NOT uploading my python packages lmao
 .venv
+
+.DS_STORE
