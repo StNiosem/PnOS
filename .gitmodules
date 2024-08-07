@@ -4,3 +4,6 @@
 [submodule "core/interface/PnFloat"]
 	path = core/interface/PnFloat
 	url = https://github.com/StNiosem/PnFloat
+[submodule "lib/business/GLibLicences"]
+	path = lib/business/GLibLicences
+	url = https://github.com/StNiosem/GLibLicences
